@@ -85,7 +85,7 @@ export default function Header() {
                 KIRAN PUBLIC SCHOOL
               </span>
               <span className="text-xs text-gray-500 dark:text-gray-400 font-medium hidden sm:block">
-                CBSE · English Medium · Nursery–Class VII
+                CBSE · English Medium · Nursery–Class VIII
               </span>
             </div>
           </Link>

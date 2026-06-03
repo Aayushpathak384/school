@@ -15,27 +15,27 @@ import { FaQuoteLeft, FaCheckCircle } from 'react-icons/fa'
 // KIRAN PUBLIC SCHOOL — Default highlights (used if CMS not configured)
 const DEFAULT_HIGHLIGHTS = [
   {
-    icon: 'monitor',
-    title: 'Smart Classrooms',
-    description: 'Technology-enabled interactive learning environments with projectors and digital boards.',
+    icon: 'FaHeart',
+    title: 'Art Classes',
+    description: 'Creative spaces where students explore drawing, painting, sketching, and various art forms to develop imagination, creativity, and artistic skills.',
   },
   {
-    icon: 'desktop',
-    title: 'Computer Education',
-    description: 'Dedicated computer lab providing digital literacy and programming fundamentals.',
+    icon: 'FaMusic',
+    title: 'Dance Classes',
+    description: 'Engaging dance sessions that help students develop rhythm, coordination, confidence, creativity, and physical fitness in a fun learning environment.',
   },
   {
-    icon: 'graduation-cap',
+    icon: 'FaChalkboardUser',
     title: 'Experienced Teachers',
     description: 'Highly qualified, dedicated educators committed to each student\'s individual growth.',
   },
   {
-    icon: 'trophy',
+    icon: 'FaFootball',
     title: 'Sports Facilities',
     description: 'Spacious playgrounds and sports activities that promote physical fitness and teamwork.',
   },
   {
-    icon: 'flask',
+    icon: 'FaFlask',
     title: 'Science Activities',
     description: 'Hands-on science experiments and fairs that make learning engaging and practical.',
   },
@@ -206,7 +206,7 @@ export default function AboutPage() {
           {/* ── School Highlights ── */}
           <section ref={highlightsRef} className="section-padding bg-white dark:bg-gray-900">
             <Container>
-              <SectionTitle title="Why Choose Kiran?" subtitle="Our key facilities and strengths" />
+              <SectionTitle title="Why Choose Kiran Public School?" subtitle="Our key facilities and strengths" />
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {highlights.map((highlight, index) => {
                   const IconComponent = getIconComponent(highlight.icon || '')

@@ -20,27 +20,27 @@ import Image from 'next/image'
 // KIRAN PUBLIC SCHOOL — Default highlights (if not set in CMS)
 const DEFAULT_HIGHLIGHTS = [
   {
-    icon: 'monitor',
-    title: 'Smart Classrooms',
-    description: 'Technology-enabled interactive learning environments with projectors and digital tools for modern education.',
+    icon: 'FaHeart',
+    title: 'Art Classes',
+    description: 'Creative spaces where students explore drawing, painting, sketching, and various art forms to develop imagination, creativity, and artistic skills.',
   },
   {
-    icon: 'desktop',
-    title: 'Computer Education',
-    description: 'Hands-on computer lab training to equip students with essential digital literacy from an early age.',
+    icon: 'FaMusic',
+    title: 'Dance Classes',
+    description: 'Engaging dance sessions that help students develop rhythm, coordination, confidence, creativity, and physical fitness in a fun learning environment.',
   },
   {
-    icon: 'graduation-cap',
+    icon: 'FaChalkboardUser',
     title: 'Experienced Teachers',
     description: 'Highly qualified, dedicated educators committed to each student\'s academic growth and overall development.',
   },
   {
-    icon: 'trophy',
+    icon: 'FaFootball',
     title: 'Sports Facilities',
     description: 'Well-maintained playgrounds and sports facilities that promote physical fitness and team spirit.',
   },
   {
-    icon: 'flask',
+    icon: 'FaFlask',
     title: 'Science Activities',
     description: 'Practical experiments and science fairs that make learning fun and foster scientific curiosity.',
   },
@@ -122,7 +122,7 @@ export default function Home() {
       <section ref={highlightsRef} className="section-padding bg-white dark:bg-gray-900">
         <Container>
           <SectionTitle
-            title="Why Choose Kiran?"
+            title="Why Choose Kiran Public School?"
             subtitle="Quality facilities and dedicated faculty to give your child the best CBSE education"
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
