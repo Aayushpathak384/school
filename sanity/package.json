@@ -1,0 +1,22 @@
+{
+  "name": "school-website-sanity",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "export": "sanity dataset export production backup.tar.gz"
+  },
+  "dependencies": {
+    "sanity": "^3.20.0",
+    "@sanity/ui": "^2.0.0",
+    "@sanity/icons": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^3.20.0"
+  }
+}
