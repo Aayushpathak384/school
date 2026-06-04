@@ -3,17 +3,6 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_SANITY_PROJECT_ID": {
-      "description": "Your Sanity project ID"
-    },
-    "NEXT_PUBLIC_SANITY_DATASET": {
-      "description": "Your Sanity dataset name (usually 'production')"
-    },
-    "NEXT_PUBLIC_SANITY_API_VERSION": {
-      "description": "Sanity API version (e.g., 2024-01-01)"
-    }
-  },
   "headers": [
     {
       "source": "/api/(.*)",
